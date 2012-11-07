@@ -1,0 +1,30 @@
+.hunch-dd {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 260px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.hunch-dd a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+}
+.hunch-dd .active > a,
+.hunch-dd li > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    outline: 0;
+}
