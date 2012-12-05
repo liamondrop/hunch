@@ -1,9 +1,3 @@
-// There are currently 895 artists on the "Artists" page
-// That's a lot to scroll through!
-// Let's make it slightly more user friendly
-// TO USE: 1. Go to http://www.artspace.com/artists
-//         2. Paste everything below into the developer tools console
-//         3. After executing, typing in the search box should reveal a dropdown with autocompleter
 (function ($) {
     'use strict';
 
